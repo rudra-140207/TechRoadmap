@@ -16,32 +16,6 @@ const Footer = () => {
               Your comprehensive guide to navigating the tech industry. From beginner resources 
               to advanced career paths, we help you build the skills that matter.
             </p>
-            <div className="flex space-x-4">
-              <a 
-                href="https://x.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white transition-colors"
-              >
-                <X className="w-6 h-6" />
-              </a>
-              <a 
-                href="https://linkedin.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white transition-colors"
-              >
-                <Linkedin className="w-6 h-6" />
-              </a>
-              <a 
-                href="https://twitter.com" 
-                target="_blank" 
-                rel="noopener noreferrer"
-                className="text-gray-400 hover:text-white transition-colors"
-              >
-                <Twitter className="w-6 h-6" />
-              </a>
-            </div>
           </div>
 
           {/* Quick Links */}
@@ -91,7 +65,16 @@ const Footer = () => {
 
         <div className="border-t border-gray-800 mt-8 pt-8 text-center">
           <p className="text-gray-400">
-            © 2024 TechRoadmap. All rights reserved. Built with ❤️ for aspiring developers.
+            © 2024 TechRoadmap. All rights reserved. <br></br>Built with ❤ by{" "}
+            <a 
+              href="https://www.linkedin.com/in/sumit-mishra77" 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-blue-400 hover:text-blue-300 transition-colors"
+            >
+              Sumit Mishra
+            </a>
+            {" "}for aspiring developers.
           </p>
         </div>
       </div>
